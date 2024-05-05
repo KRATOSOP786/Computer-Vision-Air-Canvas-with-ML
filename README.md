@@ -8,10 +8,15 @@ Here Hand landmarks detection and tracking is used in order to achieve the objec
 
 # Algorithm
 1.Start reading the frames and convert the captured frames to HSV colour space.(Easy for colour detection)
+
 2.Prepare the canvas frame and put the respective ink buttons on it.
+
 3.Adjust the values of teh mediapipe intilization to detect one hand only.
+
 4.Detect teh landmarks by passing the RGB frame to the mediapipe hand detector
-5.Detect the landmarks, find the forefinger coordinates and keep storing them in the array for successive frames .(Arrays for drawing points on canvas)
+
+5.Detect the landmarks, find the forefinger coordinates and keep storing them in the array for successive frames .(Arrays for drawing points on canvas
+
 6.Finally draw the points stored in array on the frames and canvas .
 
 ![Screenshot 2024-05-05 150814](https://github.com/KRATOSOP786/Computer-Vision-Air-Canvas-with-ML/assets/111753741/c0aed34b-8738-4396-a1fd-6c40e9f53de5)
